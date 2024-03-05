@@ -1,0 +1,52 @@
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 2px 7px 14px 1px rgba(0,0,0,0.37);
+}
+header{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+nav{
+    background-color: lightblue;
+    height: 38px;
+    border-bottom: 2px solid black;
+}
+nav ul{
+    margin: 0;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+}
+.clearfix{
+    clear: both;
+}
+#content{
+    float: left;
+    width: calc(75% - 20px); /* resto los 20px que pondre de padding 10px lad izq + 10px lad der */
+    padding: 10px;
+    min-height: 550px;
+}
+aside{
+    float: left;
+    width: calc(25% - 20px); /* resto los 20px que pondre de padding 10px lad izq + 10px lad der */
+    padding: 10px;
+    min-height: 550px;
+    background-color: lightseagreen;
+}
+footer{
+    background-color: rgb(16, 30, 31);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
